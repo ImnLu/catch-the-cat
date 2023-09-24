@@ -33,7 +33,7 @@ def cat_move():  # moves the cat randomly
     t_cat.goto(x, y)
     t_cat.st()
     if game_time > 0:
-        turtle.ontimer(cat_move, 1000)
+        turtle.ontimer(cat_move, 500)
 
 
 def cat_clicked(x, y):  # clicking on the cat increases user score
